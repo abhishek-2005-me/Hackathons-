@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secure Voting Platform</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Blockchain Voting Platform</h1>
+        </header>
+    
+        <main>
+            <section class="voting-section">
+                <h2>Cast Your Vote</h2>
+                <form id="voting-form">
+                    <label for="voter-id">Voter ID:</label>
+                    <input type="text" id="voter-id" name="voter-id" required>
+    
+                    <h3>Choose Your Candidate:</h3>
+                    <div class="candidate-options">
+                        <input type="radio" id="candidate1" name="candidate" value="Candidate 1" required>
+                        <label for="candidate1">Candidate 1</label><br>
+    
+                        <input type="radio" id="candidate2" name="candidate" value="Candidate 2" required>
+                        <label for="candidate2">Candidate 2</label><br>
+    
+                        <input type="radio" id="candidate3" name="candidate" value="Candidate 3">
+                        <label for="candidate3">Candidate 3</label>
+                    </div>
+    
+                    <button type="submit">Submit Vote</button>
+                </form>
+            </section>
+    
+            <section class="results-section">
+                <h2>Live Voting Results</h2>
+                <div id="results">
+                    <!-- Results will be displayed here dynamically -->
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Blockchain Voting. All Rights Reserved.</p>
+        </footer>
+    
+        <script src="yadav.js"></script>
+        <link rel="stylesheet" href="yadav.css">
+         
+
+        
+    
+</body>
+</html>
